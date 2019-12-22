@@ -202,7 +202,7 @@ fig=plt.figure(figsize=(20,3))
 the_table=plt.table(cellText=InfoStr,loc='center')
 the_table.auto_set_font_size=False
 the_table.set_fontsize(24)
-the_table.scale(2,2)
+the_table.scale(1.2,1.2)
 plt.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)
 plt.tick_params(axis='y', which='both', right=False, left=False, labelleft=False)
 for pos in ['right','top','bottom','left']:
