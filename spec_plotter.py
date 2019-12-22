@@ -210,3 +210,5 @@ for pos in ['right','top','bottom','left']:
 plt.show()
 
 print(tabulate(InfoStr))
+
+input('Press enter to exit...')
