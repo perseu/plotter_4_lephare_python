@@ -10,3 +10,5 @@ This script detects if it has the spec file as an external argument. If there is
 Along with the script, there are two .spec files as an example.
 
 I hope that this may help you. Feel free to use and change to fit your needs.
+
+NOTE: if using this script in Linux, please comment line 18: import msvcrt as m
