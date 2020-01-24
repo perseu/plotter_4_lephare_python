@@ -180,7 +180,7 @@ for ii in range(nfilt):
 plt.gca().invert_yaxis()
 ax.set_title(titleid + ', zspec=' + head_buff[1].split()[1] + ', zphot=' + head_buff[1].split()[2])
 plt.ylabel(r'Mag')
-fig.gca().set_xlabel(r'$\lambda ( \mu m )$')
+fig.gca().set_xlabel(r'$\lambda ( \AA )$')
 ax.legend()
 plt.show()
 
