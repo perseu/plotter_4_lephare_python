@@ -187,13 +187,14 @@ plt.show()
 
 ## Plotting the PDF
 
-figpdf = plt.figure()
-ax = plt.subplot(111)
-ax.plot(pdf_buff[:,0], pdf_buff[:,1])
-ax.set_title('PDF  ' + titleid)
-ax.set_xlabel('z', fontsize=14)
-ax.set_ylabel('Probability', fontsize=14)
-plt.show()
+if npdf > 0:
+    figpdf = plt.figure()
+    ax = plt.subplot(111)
+    ax.plot(pdf_buff[:,0], pdf_buff[:,1])
+    ax.set_title('PDF  ' + titleid)
+    ax.set_xlabel('z', fontsize=14)
+    ax.set_ylabel('Probability', fontsize=14)
+    plt.show()
 
 
 ## Showing the solution details
