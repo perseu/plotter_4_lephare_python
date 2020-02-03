@@ -18,13 +18,14 @@ from tabulate import tabulate
 from os import path
 from sys import exit
 
+#If this script is used in a windows machine uncomment the next line!
+# import msvcrt as m
 
 argtemp=sys.argv
 if len(argtemp) < 2:
     filename = input('Input file: ')
 else:
     filename=argtemp[1]
-
 
 # Verifying the existance of the file, and opening it.
 
@@ -33,7 +34,6 @@ if path.exists(filename) == True:
 else:
     print('\n\nI think that you made a mistake, it was not me!!!\nFile not found!!!\n\n\n')
     exit()
-
 
 # Reading the header
 
